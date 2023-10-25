@@ -24,8 +24,7 @@ if __name__ == "__main__":
             print("Your password has been encoded and stored!")
         elif choice == "2":
             encoded_password = input("Please enter the encoded password to decode: ")
-            pass
-            # original_password = decode(encoded_password)
-            # print(f"The encoded password is {encoded_password}, and the original password is {original_password}.")
+            original_password = decode(encoded_password)
+            print(f"The encoded password is {encoded_password}, and the original password is {original_password}.")
         elif choice == "3":
             break
